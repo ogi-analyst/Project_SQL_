@@ -1,0 +1,8 @@
+SELECT * FROM 
+data_jobs;
+
+-- mencari data analyst only
+SELECT *
+FROM data_jobs
+WHERE data_title = 'Data Analyst';
+
